@@ -1,0 +1,24 @@
+.button {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 9px 16px;
+    background: #6A6E74;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: background-color 0.5s;
+    background-color: #292D32;
+}
+
+.button:focus {
+    outline: 2px solid #D7DCFF;
+}
+
+.button:disabled {
+    background-color: #C4C4C4;
+}

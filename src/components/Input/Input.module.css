@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.form {
+  border: none;
+  outline: 1px solid #C4C4C4;
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 343px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.form::placeholder {
+  color: #C4C4C4;
+}
+
+.form:hover {
+  outline: 1px solid #8A8E97;
+}
+.form:hover::placeholder {
+  color: #8A8E97;
+}
+
+.form:focus {
+  outline: 2px solid #D7DCFF;
+}
+
+.form:focus::placeholder {
+  color: #C4C4C4;
+}
+
+.form:active {
+  outline: 1px solid #3257FB;
+}
+
+.form:active::placeholder {
+  color: #292D32;
+}
+
+.form:disabled {
+  background-color: #EFEFEF;
+  outline: 1px solid #EFEFEF;
+}
+
+.form:disabled::placeholder {
+  color: #C4C4C4;
+}
