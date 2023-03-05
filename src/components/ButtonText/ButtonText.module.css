@@ -1,0 +1,15 @@
+.button {
+    background-color: transparent;
+    padding: 3px 2px 4px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6A6E74;
+    border: none;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: 2px solid #D7DCFF;
+}
