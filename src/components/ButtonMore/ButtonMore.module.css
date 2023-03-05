@@ -2,4 +2,18 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.button:focus {
+    outline: 2px solid #D7DCFF;
+    border-radius: 8px;
+}
+
+.icon {
+    width: 16px;
+    height: 4px;
+    fill: #535559;
 }

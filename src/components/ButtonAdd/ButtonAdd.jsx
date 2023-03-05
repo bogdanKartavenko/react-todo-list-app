@@ -1,8 +1,14 @@
+import clsx from "clsx"
 import { IconPlus } from "../icon/icon"
 import styles from "./ButtonAdd.module.css"
+import PropTypes from 'prop-types';
 
-export function ButtonAdd() {
-    return <button className={styles.button}><IconPlus size={16}/></button>
+export function ButtonAdd({className}) {
+    return <button className={clsx(styles.button, className)}><IconPlus className={styles.icon} /></button>
 };
 
-export default ButtonAdd
+ButtonAdd.propTypes = {
+    className: PropTypes.string,
+};
+
+export default ButtonAdd;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 .button {
     font-weight: 500;
     font-size: 12px;
@@ -8,6 +10,10 @@
     border: none;
     color: white;
     cursor: pointer;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .button:hover {

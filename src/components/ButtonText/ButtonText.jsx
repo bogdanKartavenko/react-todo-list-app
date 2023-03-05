@@ -8,9 +8,9 @@ export function ButtonText({text, className}) {
     return <button className={clsx(styles.button, className)} onClick={() => setButton(!isButton)}>{text}</button>
 };
 
-export default ButtonText;
-
 ButtonText.propTypes = {
     text: PropTypes.string.isRequired,
     className: PropTypes.string
-}
+};
+
+export default ButtonText;

@@ -6,6 +6,7 @@ import ButtonText from "./components/ButtonText/ButtonText";
 import { ButtonMore } from "./components/ButtonMore";
 import ButtonAdd from "./components/ButtonAdd/ButtonAdd";
 import ButtonClose from "./components/ButtonClose/ButtonClose";
+import { ColorDot } from "./components/ColorDot/ColorDot";
 
 export function App() {
     return (
@@ -15,10 +16,12 @@ export function App() {
             text={"Button"}/>
             <ButtonText 
             text={"Add New Task"}/>
-            <ButtonMore />
+            <ButtonMore 
+            className={styles.more}/>
             <ButtonAdd />
             <ButtonClose />
             <Checkbox /> 
+            <ColorDot />
         </form>
     );
 };

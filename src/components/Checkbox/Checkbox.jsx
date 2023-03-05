@@ -8,6 +8,7 @@ export function Checkbox() {
             <input className={styles.checkbox} type="checkbox" checked={isChecked} onChange={() => setIsChecked(!isChecked)} />
             <span className={styles.border}></span>
             <span className={styles.span}></span>
+            <span className={styles.text}>Done</span>
         </label>
     );
 };
